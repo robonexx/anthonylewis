@@ -46,7 +46,7 @@ export default function Home() {
         <Hero />
         <Carousel />
         <Video>
-        {videoData.map(({ vid, vtime, id }) => (
+          {videoData.map(({ vid, vtime, id }) => (
             <div key={id}>
               <iframe
                 title='tony gogo'
